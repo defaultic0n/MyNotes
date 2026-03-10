@@ -1,0 +1,44 @@
+Estimated resource needs for Claude (Cowork mode):
+The Claude desktop app runs a lightweight Linux VM in the background, so on top of the app itself, you'd want to account for:
+
+RAM: Reserve around 2–4 GB for the app and its VM. If you're running other heavy applications simultaneously, having 8 GB total system RAM or more is advisable.
+CPU: No dedicated CPU reservation is strictly required, but a modern dual-core processor or better ensures smooth operation. The VM spins up on demand so CPU usage is intermittent rather than constant.
+Disk: A few GB of free disk space for the VM environment and any temporary files.
+
+For a corporate laptop (which you're likely on), I'd recommend:
+ResourceMinimumComfortableRAM4 GB free8 GB+ totalCPUDual-coreQuad-core+Disk2 GB free5 GB+ freeInternetStable broadband10 Mbps+
+For the official and most accurate specs, please check directly at:
+
+👉 support.claude.ai
+👉 docs.claude.ai
+
+Is there anything else I can help with?can we limit the ram and cpu utilization?Thought processThought processThat's a great question, especially on a corporate machine where resources may be shared. Here's what's generally possible:
+Within the Claude desktop app:
+As of my knowledge cutoff, there's no built-in setting in the Claude desktop app to cap CPU or RAM usage directly. For the latest on this, it's worth checking support.claude.ai as features may have been added.
+At the OS level (Windows), you can limit it yourself:
+
+Task Manager (quick & manual)
+
+Open Task Manager → Details tab
+Right-click the Claude process → Set Priority → "Below Normal" or "Low"
+This reduces CPU priority so other apps aren't starved
+
+
+CPU Affinity (limit which cores it uses)
+
+Task Manager → Details → Right-click Claude → Set Affinity
+Uncheck some CPU cores to restrict usage
+
+
+Windows Job Objects / third-party tools
+
+Tools like Process Lasso or BES (Battle Encoder Shirase) let you cap CPU % usage more precisely
+These are useful if you want to enforce, say, a maximum of 20–30% CPU
+
+
+RAM is harder to cap directly on Windows without enterprise tools, but keeping priority low generally helps prevent it from crowding out other apps.
+
+My recommendation for a corporate laptop:
+
+Set Claude's process priority to Below Normal
+This is a simple, safe way to ensure it doesn't compete with your main work applications
