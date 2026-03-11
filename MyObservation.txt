@@ -1,0 +1,2 @@
+Cowork run on desktop.. eat up CPU power and RAM. 
+it has extension for Chrome.. which trigger RBA
