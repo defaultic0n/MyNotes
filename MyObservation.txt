@@ -1,2 +1,26 @@
 Cowork run on desktop.. eat up CPU power and RAM. 
 it has extension for Chrome.. which trigger RBA
+
+
+==========
+
+Document & File Creation
+I can create professional Word documents (.docx), PowerPoint presentations (.pptx), Excel spreadsheets (.xlsx), and PDFs — fully formatted, ready to use. Just describe what you need and I'll build it.
+Research & Analysis
+I can search the web, pull from Microsoft documentation, and synthesize information into reports, summaries, or briefings. Great for quick research on any topic.
+Email & Calendar (via Outlook/Teams)
+I'm connected to your Microsoft 365 — I can search your emails, look through your calendar, find meeting availability, and search Teams messages. Useful for things like "find that email about X" or "when am I free next week?"
+SharePoint & OneDrive
+I can search and read documents from your SharePoint environment.
+File System Work
+If you give me access to a folder on your computer, I can read, organize, rename, or process files — PDFs, spreadsheets, documents, etc.
+Writing & Editing
+I can draft emails, reports, memos, and presentations — and also polish existing text to make it sound more natural and professional.
+Automation & Scheduling
+I can set up scheduled tasks that run automatically — like daily summaries, reminders, or recurring reports.
+Coding & Data
+I can write and run Python, JavaScript, and other code to process data, automate tasks, or build tools.
+
+=============
+
+
