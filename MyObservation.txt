@@ -2,7 +2,7 @@ Cowork run on desktop.. eat up CPU power and RAM.
 Installation is tricke.. require several restart and local admin credential.. as it need to run VM at the background. if you going for exam.. the same computer will have some issues.
 it has extension for Chrome.. which trigger RBA.. only works in Chrome.. consume cpu power and memory
 Sign-in require to wait for Claude email.. and most of the time it took time.. in most situation the email goes to Quarantine.
-Usage statistic information such as adoption is very basic. not much can be extracted out for usage/adoption analysis
+Usage statistic information such as adoption is very basic. not much can be extracted out for usage/adoption analysis.. cannot set date, reporting time is based on US
 
 
 ==========
