@@ -1,5 +1,6 @@
 Cowork run on desktop.. eat up CPU power and RAM. 
 it has extension for Chrome.. which trigger RBA
+Sign-in require to wait for Claude email.. and most of the time it took time.. in most situation the email goes to Quarantine.
 
 
 ==========
